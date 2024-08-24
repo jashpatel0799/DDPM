@@ -1,0 +1,8 @@
+save_model/
+data/
+check_point/
+__pycaches__/
+
+*.pyc
+
+wandb/

@@ -1,0 +1,8 @@
+exp_name: "base_ddpm"
+details: "4 layer encoder-decoder layer" # "base vit architecture" # "base vit architecture but Residual at only Multi head attention"
+dataset_name: "mnist"
+seed: 64
+batch_size: 64
+learning_rate: 3e-4
+num_epoch: 500
+wandb_project: "base-ddpm"
