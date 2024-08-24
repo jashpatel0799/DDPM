@@ -121,6 +121,7 @@ def main(args):
             wandb.log({
                     "Train Loss": train_loss,
                     "FID": fid_val.item(),
+                    "Generated Image": wandb.Image(f"/scratch/data/m22cs061/DDPM/gen_images/{DATASET_NAME}/{DATASET_NAME}_{epoch+1}_{LEARNING_RATE}.jpg"),
                 })
             
             # checkpointing
