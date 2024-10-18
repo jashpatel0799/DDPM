@@ -31,7 +31,7 @@ def main(args):
 
     DATASET_NAME = args['dataset_name'] # "mnist"
     SEED = args['seed'] # 64
-    LEARNING_RATE = args['learning_rate'] # 1e-6
+    LEARNING_RATE = float(args['learning_rate']) # 1e-6
     NUM_EPOCHES = args['num_epoch'] # 500
     TRAIN_LOSS, TEST_LOSS = [], []
     FID_SCORE = []
